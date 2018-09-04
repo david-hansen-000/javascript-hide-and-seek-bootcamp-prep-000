@@ -4,5 +4,8 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  var id=document.queryElementById("nested").querySelectorAll("")
+  const myNode=document.queryElementById("nested").querySelectorAll("div");
+  for (let i=0; i<myNode.length; i++) {
+    
+  }
 }
