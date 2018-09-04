@@ -6,6 +6,6 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   const myNode=document.queryElementById("nested").querySelectorAll("div");
   for (let i=0; i<myNode.length; i++) {
-    
+    if (myNode)
   }
 }
